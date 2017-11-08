@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">LightsaberApp</string>
+    <string name="color_de_sable_favorito">¿Cuál es tu color de sable favorito?</string>
+    <string name="cambiar_colores">Cambiar Colores</string>
+    <string name="ajustar_luz">Ajustar Luz</string>
+    <string name="activar_vibracion">Activar Vibración</string>
+    <string name="vibrarButtonText">Vibrar</string>
+    <string name="ajustar_brillo_deseado">Ajustar brillo deseado</string>
+    <string name="eje_x">Eje X :</string>
+    <string name="eje_y">Eje Y :</string>
+    <string name="eje_z">Eje Z :</string>
+    <string name="acelerometro">Acelerómetro</string>
+    <string name="luminosidad">Luminosidad</string>
+    <string name="proximidad">Proximidad</string>
+    <string name="aceleracion">Aceleración</string>
+    <string name="ver_datos">Ver datos</string>
+    <string name="azul">Azul</string>
+    <string name="rojo">Rojo</string>
+    <string name="colorizar">Colorizar!</string>
+    <string name="manejar_bluetooth">Conectar Bluetooth</string>
+    <string name="pair">Pair</string>
+    <string name="moto_e2">Moto E2</string>
+    <string name="_000000000">000000000</string>
+    <string name="lista_de_dispositivos">Lista de dispositivos</string>
+    <string name="text_enable">Text Enable</string>
+    <string name="paired">Paired</string>
+    <string name="scan">Scan</string>
+    <string name="realizar_acciones">Realizar Acciones</string>
+</resources>

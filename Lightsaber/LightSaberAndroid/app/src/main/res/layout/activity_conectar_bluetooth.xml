@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtEstado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:text="Bluetooth OFF"
+        android:textColor="#ff0000"
+        android:textSize="17sp" />
+
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        android:id="@+id/btnActivar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="@color/starHard"
+        android:text="@string/text_enable"
+        app:bootstrapSize="lg"
+        app:buttonMode="regular"
+        app:roundedCorners="true" />
+
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        android:id="@+id/btnEmparejar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="@string/paired"
+        android:backgroundTint="@color/starSoft"
+        app:bootstrapSize="lg"
+        app:buttonMode="regular"
+        app:roundedCorners="true" />
+
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        android:id="@+id/btnBuscar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/scan"
+        android:backgroundTint="@color/starSoft"
+        app:bootstrapSize="lg"
+        app:buttonMode="regular"
+        app:roundedCorners="true" />
+
+</LinearLayout>
